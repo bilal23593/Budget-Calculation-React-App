@@ -60,7 +60,7 @@ const handleSubmit = e =>{
   }
   else{
     //Handle alert call
-    handleAlert({type:'danger',text:'Fields are empty OR some field are entered wrongly'});
+    handleAlert({type:'danger',text:'Fields are empty OR fields are entered wrongly'});
   }
 }
 
